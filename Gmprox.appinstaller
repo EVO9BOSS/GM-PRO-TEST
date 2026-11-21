@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+Uri="https://downloads.gmprox.com/gmprox/releases/1.0.0.0/Gmprox.appinstaller"
+Version="1.0.0.0"
+xmlns="http://schemas.microsoft.com/appx/appinstaller/2018"
+xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+
+<MainPackage
+Name="com.gmprox.app"
+Publisher="CN=Your Company, O=Your Company, L=City, S=State, C=US"
+Version="1.0.0.0"
+ProcessorArchitecture="x64"
+Uri="https://downloads.gmprox.com/gmprox/releases/1.0.0.0/Gmprox1.0.0.0x64.msix" />
+<UpdateSettings>
+<OnLaunch HoursBetweenUpdateChecks="24" />
+<AutomaticBackgroundTask />
+<ShowPrompt />
+<ForceUpdateFromAnyVersion>true</ForceUpdateFromAnyVersion>
+</UpdateSettings>
+</AppInstaller>
